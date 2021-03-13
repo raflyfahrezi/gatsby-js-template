@@ -5,7 +5,7 @@ module.exports = {
     plugins: [
         'gatsby-plugin-styled-components',
         'gatsby-plugin-image',
-        'gatsby-plugin-react-helmet',
+        'gatsby-plugin-react-helmet-async',
         'gatsby-plugin-sharp',
         'gatsby-transformer-sharp',
         {
