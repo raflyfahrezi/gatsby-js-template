@@ -22,6 +22,7 @@ module.exports = {
                 root: './src',
                 aliases: {
                     Images: './images',
+                    Styles: './styles',
                     Module: './modules',
                     Typography: './typography',
                     Components: './components',
