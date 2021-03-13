@@ -16,5 +16,17 @@ module.exports = {
             },
             __key: 'images',
         },
+        {
+            resolve: 'gatsby-plugin-module-resolver',
+            options: {
+                root: './src',
+                aliases: {
+                    Images: './images',
+                    Module: './modules',
+                    Typography: './typography',
+                    Components: './components',
+                },
+            },
+        },
     ],
 }
